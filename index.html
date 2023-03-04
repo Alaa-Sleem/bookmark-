@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container bg-danger opacity-75 text-center">
+                <h3>Bookmarker</h3>
+            </div>
+        </header>
+        <div class="container m-sm-4 ">
+            <div class="bg-secondary-subtle p-lg-5">
+                <div class="column">
+                    <h2 >Bookmark your favorite sites </h2>
+                    <p>Site Name</p>
+                    <input id="siteName" class="w-50" placeholder="Bookmark Name" type="text" />
+                    <p class="alert alert-error m-auto" id="nameError"></p>
+                    <p>Site URL</p>
+                    <input id="siteUrl"  class="w-50" placeholder="website URL" type="text" />
+                    <p class="alert alert-error m-auto" id="urlError"></p>
+                    <div class="m-auto">
+                            <button class="btn btn-primary" onclick="submit()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container w-75">
+        
+                <table class="table ">
+    
+                    <tbody id="bookmarkList" class="bg-secondary-subtle  ">
+                       
+    
+                     
+                     
+        
+                    </tbody>
+            </div>
+        </div>
+    
+    
+    </div>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/mine.js"></script>
+</body>
+</html>
